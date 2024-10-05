@@ -1,12 +1,12 @@
-EXECUTABLE := PhoneBook
-INCLUDES = PhoneBook.hpp
+EXECUTABLE := account
+INCLUDES = Account.hpp
 CPP = c++
 OBJ_DIR = obj
-SRCS = main.cpp PhoneBook.cpp
+SRCS = tests.cpp Account.cpp
 
 OBJ = $(SRCS:%.cpp=$(OBJ_DIR)/%.o)
 
-CFLAGS = -Wall -Wextra -Werror -Iincludes -std=c++98
+CFLAGS = -Wall -Wextra -Werror -I. -std=c++98
 
 RM := rm -f
 
