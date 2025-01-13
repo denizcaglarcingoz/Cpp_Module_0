@@ -1,4 +1,4 @@
-# Cpp_Module_0
+# Cpp_Module_00
 Namespaces, classes, member functions, stdio streams, initialization lists, static, const, and some other basic stuff
 
 # Exercise 00 : Megaphone
